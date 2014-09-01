@@ -26,7 +26,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Diary</a>
+                    <a class="navbar-brand" href="/posts/posts_index">Diary</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -41,7 +41,7 @@
         <div class='container'>
             <div id="input" class='row'>
                 <div class='col-sm-6 col-sm-offset-3'>
-                    <form id="process_user" action='/users/users_create/' method='post'>
+                    <form id="process_user" action='/users/users_show/' method='post'>
                         <h2>Log in</h2>
                         <p>
                             <label>Penname</label>

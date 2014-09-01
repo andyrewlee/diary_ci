@@ -8,7 +8,7 @@ class Users extends CI_Controller {
     }
     public function users_show()
     {
-        // profile page of user
+        $this->load->view('users/show.php');
     }
     public function users_new()
     {

@@ -70,3 +70,30 @@ form#process_user {
 .submit {
     text-align: center;
 }
+
+#unlock_p {
+    text-align: center;
+}
+
+#unlock {
+    border: 1px solid black;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+#modal-button {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+#modal-text {
+    height: 50px;
+}
+
