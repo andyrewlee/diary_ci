@@ -31,8 +31,8 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">About</a></li>
-                        <li><a href="/users/users_new/">Register</a></li>
-                        <li><a href="/sessions/sessions_new/">Login</a></li>
+                        <li class="active"><a href="/users/users_new">Register</a></li>
+                        <li><a href="/sessions/sessions_new">Login</a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -41,9 +41,27 @@
         <div class='container'>
             <div id="input" class='row'>
                 <div class='col-sm-6 col-sm-offset-3'>
-                    <form action='/posts/posts_create/' method='post'>
-                        <textarea class="form-control" name="input" rows="14" placeholder="How was your day?"></textarea>
-                        <input class='btn btn-default' type='submit' value='Input'>
+                    <form id="process_user" action='/users/users_create/' method='post'>
+                        <h2>Join</h2>
+                        <p>
+                            <label>Penname</label>
+                            <input type="text" name="penname">
+                        </p>
+                        <p>
+                            <label>Email (optional)</label>
+                            <input type="text" name="penname">
+                        </p>
+                        <p>
+                            <label>Password</label>
+                            <input type="password" name="password">
+                        </p>
+                        <p>
+                            <label>Confirm Password</label>
+                            <input type="password" name="confirm_password">
+                        </p>
+                        <p class="submit">
+                            <input class="btn btn-sm btn-default" type="submit" value="Register">
+                        </p>
                     </form>
                 </div>
             </div>

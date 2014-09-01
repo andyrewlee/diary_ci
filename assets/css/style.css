@@ -42,13 +42,31 @@ form {
 .post_body {
     margin-left: 5px;
 }
-
 .post_body p {
     margin-bottom: 10px;
 }
-
 #chat_input {
     margin-top: 10px;
     width: 88%;
 }
-
+form#process_user {
+    text-align: left;
+}
+#process_user label {
+    width: 150px;
+}
+#process_user input {
+    width: 100%;
+}
+#process_user h2 {
+    text-align: center;
+}
+#process_user p {
+    margin-bottom: 10px;
+}
+#process_user input[type='submit'] {
+    width: 100px;
+}
+.submit {
+    text-align: center;
+}
