@@ -2,20 +2,34 @@ body {
     padding-top: 70px;
     font-family: serif;
 }
-
+p {
+    padding: 0;
+    margin: 0;
+}
 .container {
     max-width: 1000px;
 }
-
 #input {
     margin-top: 5%;
 }
-
 form {
     text-align: center;
 }
-
-
 #input input[type='submit'] {
     margin-top: 30px;
+}
+.post {
+    margin-bottom: 50px;
+}
+.post_heading {
+    background-color: #e7e7e7;
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 3px;
+}
+.post_heading p {
+    margin-left: 10px;
+}
+.post_data {
+    margin-right: 10px;
 }

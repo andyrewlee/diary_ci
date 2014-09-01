@@ -6,6 +6,10 @@ class Posts extends CI_Controller {
     {
         $this->load->view('posts/new.php');
     }
+    public function posts_index()
+    {
+        $this->load->view('posts/index.php');
+    }
     public function posts_show()
     {
         $this->load->view('posts/show.php');
@@ -16,8 +20,7 @@ class Posts extends CI_Controller {
     }
     public function posts_create()
     {
-        var_dump($this->input->post());
-        die();
+        redirect("posts/posts_index");
     }
 }
 
