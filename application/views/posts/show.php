@@ -37,8 +37,36 @@
                 </div><!--/.nav-collapse -->
             </div>
         </div>
-
-    
-        
+        <div class="container">
+            <div id='input' class='row'>
+                <div class='col-sm-6'>
+                    <div class='post show_box'>
+                        <div class="post_heading">
+                            <p>Expires in 25 minutes<span class="pull-right post_data">5 miles away (48 joys)</span></p>
+                        </div>
+                        <div class="post_body">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-sm-6'>
+                    <div class='show_box'>
+                        <div class="post_body">
+                            <p class='col-sm-8 col-sm-offset-1'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                            </p>
+                            <p class='col-sm-8 col-sm-offset-3'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                            </p>
+                            <p class='col-sm-8 col-sm-offset-1'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            </p>
+                            <p class='col-sm-8 col-sm-offset-1'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                    <input id='chat_input' type='text' name='input'>
+                    <label class='btn btn-sm btn-default'>Input</label>
+                </div>
+            </div> 
+        </div>       
     </body>
 </html>

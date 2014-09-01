@@ -19,7 +19,13 @@ form {
     margin-top: 30px;
 }
 .post {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #e7e7e7;
+}
+.show_box {
+    height: 280px;
+    border: 1px solid #e7e7e7;
+    overflow: scroll;
 }
 .post_heading {
     background-color: #e7e7e7;
@@ -27,9 +33,22 @@ form {
     padding-top: 10px;
     border-radius: 3px;
 }
-.post_heading p {
+.post_heading p, {
     margin-left: 10px;
 }
 .post_data {
     margin-right: 10px;
 }
+.post_body {
+    margin-left: 5px;
+}
+
+.post_body p {
+    margin-bottom: 10px;
+}
+
+#chat_input {
+    margin-top: 10px;
+    width: 88%;
+}
+

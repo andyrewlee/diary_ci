@@ -38,14 +38,15 @@
             </div>
         </div>
 
-        <div id="input" class='row'>
-            <div class='col-sm-4 col-sm-offset-4'>
-                <form action='/posts/posts_create/' method='post'>
-                    <textarea class="form-control" name="input" rows="14" placeholder="How was your day?"></textarea>
-                    <input class='btn btn-default' type='submit' value='Input'>
-                </form>
+        <div class='container'>
+            <div id="input" class='row'>
+                <div class='col-sm-6 col-sm-offset-3'>
+                    <form action='/posts/posts_create/' method='post'>
+                        <textarea class="form-control" name="input" rows="14" placeholder="How was your day?"></textarea>
+                        <input class='btn btn-default' type='submit' value='Input'>
+                    </form>
+                </div>
             </div>
         </div>
-        
     </body>
 </html>
