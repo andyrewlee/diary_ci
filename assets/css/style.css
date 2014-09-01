@@ -6,3 +6,16 @@ body {
 .container {
     max-width: 1000px;
 }
+
+#input {
+    margin-top: 5%;
+}
+
+form {
+    text-align: center;
+}
+
+
+#input input[type='submit'] {
+    margin-top: 30px;
+}

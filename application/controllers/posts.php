@@ -4,15 +4,20 @@ class Posts extends CI_Controller {
 
     public function index()
     {
-        $this->load->view('posts/index.php');
+        $this->load->view('posts/new.php');
     }
-    public function show()
+    public function posts_show()
     {
         $this->load->view('posts/show.php');
     }
-    public function create()
+    public function posts_new()
     {
-        $this->load->view('posts/create.php');
+        $this->load->view('posts/new.php');
+    }
+    public function posts_create()
+    {
+        var_dump($this->input->post());
+        die();
     }
 }
 
